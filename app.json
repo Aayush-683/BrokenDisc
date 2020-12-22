@@ -1,0 +1,7 @@
+{
+  "name": "Broken-Disc",
+  "description": "Discord Music Bot built with discord.js",
+  "repository": "https://github.com/BlackKnight683/Broken-Disc",
+  "logo": "http://www.simpleimageresizer.com/_uploads/photos/7902fd72/images_1_1280x640_1_50.png",
+  "keywords": ["discord", "discordjs", "music", "bot"]
+}

@@ -92,3 +92,4 @@ Examples: `1` or `1,2,3`
 ## 📝 Credits
 
 [@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)
+[@eritislami](https://github.com/eritislami) For the advanced search system used in this application which was adapted from [@eritislami/evobot](https://github.com/eritislami/evobot)

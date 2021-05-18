@@ -16,6 +16,12 @@ const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 /**
+ * Webserver Initialisation
+ *?
+const keepAlive = require('./alive.js')
+keepAlive()
+
+/**
  * Client Events
  */
 client.on("ready", () => {

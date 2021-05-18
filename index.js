@@ -17,7 +17,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 /**
  * Webserver Initialisation
- *?
+ */
 const keepAlive = require('./alive.js')
 keepAlive()
 

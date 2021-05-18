@@ -1,5 +1,5 @@
 <h1 align="center">No Coding Needed Discord Music Bot</h1>
-<p align="center"><img src="http://www.simpleimageresizer.com/_uploads/photos/7902fd72/images_1_1280x640_1_50.png"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/779285545775661076/844206868150878208/unnamed.png"></p>
 
 ## Tutorial
 Tutorial has been uploaded on YouTube <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> 

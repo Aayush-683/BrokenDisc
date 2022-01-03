@@ -1,29 +1,50 @@
 {
-  "name": "broken-disc",
-  "version": "0.9.0",
-  "description": "Discord music bot built with discord.js",
-  "main": "index.js",
-  "author": "BlackKnight683 <contact@blackknight683.tk>",
+  "name": "brokendisc",
+  "version": "2.0.1",
+  "description": "",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/BlackKnight683/BrokenDisc#README",
+  "main": "src/index.js",
   "private": true,
-  "homepage": "https://github.com/BlackKnight683/Broken-Disc",
-  "repository": "github:BlackKnight683/Broken-Disc",
-  "bugs": "https://github.com/BlackKnight683/Broken-Disc/issues",
-  "engines": {
-    "node": "12.x"
-  },
-  "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "array-move": "^3.0.1",
-    "discord.js": "^12.5.1",
-    "erit-ytdl": "^0.1.2",
-    "ffmpeg-static": "^4.2.3",
-    "lyrics-finder": "^21.0.5",
-    "simple-youtube-api": "^5.1.1",
-    "soundcloud-downloader": "^0.2.1",
-    "string-progressbar": "^1.0.1",
-    "ytdl-core": "^4.1.2"
+  "author": {
+    "name": "blackknight683",
+    "url": "https://solonodes.xyz"
   },
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlackKnight683/BrokenDisc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackKnight683/BrokenDisc/issues",
+    "email": "oofy@solonodes.xyz"
+  },
+  "keywords": [
+    "discord-bot",
+    "discord.js",
+    "discord-js",
+    "discord-music-bot",
+    "music-bot",
+    "djs-v13",
+    "discord-player"
+  ],
+  "dependencies": {
+    "@discord-player/extractor": "^3.0.2",
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "chalk": "^4.1.2",
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.3.1",
+    "ffmpeg-static": "^4.4.0",
+    "glob": "^7.1.7",
+    "ytdl-core": "^4.9.2"
   }
 }

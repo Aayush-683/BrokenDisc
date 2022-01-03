@@ -1,83 +1,31 @@
 <h1 align="center">No Coding Needed Discord Music Bot</h1>
 <p align="center"><img src="https://cdn.discordapp.com/attachments/779285545775661076/844206868150878208/unnamed.png"></p>
 
-## Tutorial
-Tutorial has been uploaded on YouTube <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> 
+## ❓ Tutorial
+Tutorial has been uploaded on Youtube 
 
-Watch it by clicking [here](https://bit.ly/blackknight683)
+Watch it by clicking [here](https://youtube.com/c/blackknight683)
 
-## Run the projects
+## ⚙ Configuration
 
-Glitch: [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/BlackKnight683/Broken-Disc)
+Basic configuration
+ 
++ `botToken` : The token of the bot available on the [Discord Developers Portal](https://discordapp.com/developers/applications).
+- `supportServer` : The discord support server link.
++ `owners` : An array of owner ids, Ex: `"owners": ["12345678901234"]`.
 
-Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackKnight683/Broken-Disc)
+## 📑 Installation
 
-Repl: [![Run on Repl.it](https://repl.it/badge/github/BlackKnight683/Broken-Disc)](https://repl.it/github/BlackKnight683/Broken-Disc)
+To use the project correctly you will need some tools.
 
+[NPM](https://www.npmjs.org) (>= v7) to install packages
 
-Made with :heart: and JavaScript!
+[Node JS](https://nodejs.org/en/) (>= v16.6) for environment
 
-## Configuration
+**Run the following to start the bot**
 
-Copy or Rename `config.json.example` to `config.json` and fill out the values:
-
-```json
-{
-  "TOKEN": "",
-  "YOUTUBE_API_KEY": "",
-  "SOUNDCLOUD_CLIENT_ID": "",
-  "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "/",
-  "PRUNING": false,
-  "STAY_TIME": 30
-}
-```
-
-## Features & Commands
-
-> Note: The default prefix is '/'
-
-* 🎶 Play music from YouTube via url
-
-`/play https://www.youtube.com/watch?v=XXX69420`
-
-* 🔎 Play music from YouTube via search query
-
-`/play Faded`
-
-* 🎶 Play music from Soundcloud via url
-
-`/play https://soundcloud.com/blackknight683/free-moneyz`
-
-* 🔎 Search and select music to play
-
-`/search RickRoll`
-
-Reply with song number or numbers seperated by comma that you wish to play
-
-Examples: `1` or `1,2,3`
-
-* Play youtube playlists via url
-
-`/playlist https://www.youtube.com/watch?v=Your_QuErRy_hErE`
-
-* 🔎 Play youtube playlists via search query
-
-* Now Playing (/np)
-* Queue system (/queue, /q)
-* Loop / Repeat (/loop)
-* Shuffle (/shuffle)
-* Volume control (/volume, /v)
-* Lyrics (/lyrics, /ly)
-* Pause (/pause)
-* Resume (/resume, /r)
-* Skip (/skip, /s)
-* Skip to song # in queue (/skipto, /st)
-* Remove song # from queue (/remove, /rm)
-* Toggle pruning of bot messages (/pruning)
-* Help (/help, /h)
-* Command Handler from [discordjs.guide](https://discordjs.guide/)
-* Media Controls via Reactions
++ `npm install`
++ `npm start` or `node src/index.js`
 
 ## 🤝 Contributing
 
@@ -88,8 +36,3 @@ Examples: `1` or `1,2,3`
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-## 📝 Credits
-
-[@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)
-
-[@eritislami](https://github.com/eritislami) For the advanced search system used in this application which was adapted from [@eritislami/evobot](https://github.com/eritislami/evobot)

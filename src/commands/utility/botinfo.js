@@ -17,8 +17,6 @@ module.exports = {
         `**Bot Id:** ${bot.user.id}
         **Bot Tag:** ${bot.user.tag}
         **Created At :** ${createdAt.toDateString()}
-        **Developer:** [•OofyOofOof•#2018](https:\/\/youtube.com\/c\/BlackKnight683)
-        **Github Repo:** __[BlackKnight683/BrokenDisc](https:\/\/github.com\/BlackKnight683\/BrokenDisc)__
         **Prefix:** \/`
       )
       .addField("Bot Stats",
@@ -29,9 +27,7 @@ module.exports = {
       )
       .addField("System Info",
         `**RAM Usage:**  ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB
-        **Bot Uptime:** ${uptime}
-        **Node Version:** ${process.version}
-        **Platform:** ${util.toCapitalize(process.platform)}`
+        **Bot Uptime:** ${uptime}`
       );
 
     const button1 = new MessageButton()

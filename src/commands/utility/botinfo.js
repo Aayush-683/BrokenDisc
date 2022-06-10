@@ -8,7 +8,7 @@ module.exports = {
   async execute(bot, interaction) {
     const util = bot.utils;
     const uptime = util.formatDuration(bot.uptime);
-    const createdAt = new Date(bot.user.createdAt);
+    const createdAt = `<t:${bot.user.createdTimestamp}:R>`
     const users = bot.guilds.cache.reduce((a, g) => a + g.memberCount, 0);
 
     const embed = bot.say.baseEmbed(interaction)
@@ -16,7 +16,7 @@ module.exports = {
       .addField("General Info",
         `**Bot Id:** ${bot.user.id}
         **Bot Tag:** ${bot.user.tag}
-        **Created At :** ${createdAt.toDateString()}
+        **Created At :** ${createdAt}
         **Developer:** [•OofyOofOof•#2018](https:\/\/youtube.com\/c\/BlackKnight683)
         **Github Repo:** __[BlackKnight683/BrokenDisc](https:\/\/github.com\/BlackKnight683\/BrokenDisc)__
         **Prefix:** \/`

@@ -1,10 +1,4 @@
 <h1 align="center">No Coding Needed Discord Music Bot</h1>
-<p align="center"><img src="https://cdn.discordapp.com/attachments/779285545775661076/844206868150878208/unnamed.png"></p>
-
-## ❓ Tutorial
-Tutorial has been uploaded on Youtube 
-
-Watch it by clicking [here](https://youtube.com/c/blackknight683)
 
 ## ⚙ Configuration
 
